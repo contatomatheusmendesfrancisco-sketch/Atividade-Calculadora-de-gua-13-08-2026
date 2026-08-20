@@ -34,7 +34,6 @@ class Aplicacao:
         self.chkClima = self.construtor.get_object('chkClima')
         self.lblResultado = self.construtor.get_object('lblResultado')
         
-        # Correção: Carregando os botões do Glade antes de conectar os sinais
         self.bntCalcular = self.construtor.get_object('bntCalcular')
         self.bntLimpar = self.construtor.get_object('bntLimpar')
 
